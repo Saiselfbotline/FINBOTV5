@@ -20,7 +20,7 @@ class Channel(object):
         self.__loginChannel()
 
     def __logChannel(self, text):
-        self.client.log('[%s] login to %s' % (self.client.profile.displayName, text))
+        self.client.log('[%s] : Success login to %s' % (self.client.profile.displayName, text))
 
     def __loginChannel(self):
         self.isLogin = True
@@ -45,7 +45,7 @@ class Channel(object):
         return self.client.issueChannelToken(channelId)
 
     @loggedIn
-    def getChannelInfo(self, channelId, locale='EN'):
+    def getChannelInfo(self, channelId, locale='ID'):
         return self.client.getChannelInfo(channelId, locale)
 
     @loggedIn

@@ -4,10 +4,6 @@ from .ttypesDefault import *
 from thrift.Thrift import TProcessor
 from thrift.transport import TTransport
 from thrift.protocol import TBinaryProtocol, TProtocol
-try:
-  from thrift.protocol import fastbinary
-except:
-  fastbinary = None
 
 class Iface:
   def getRSAKey(self):
