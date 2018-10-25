@@ -8,6 +8,8 @@ from thrift.protocol import TCompactProtocol
 from thrift.transport import THttpClient
 from collections import OrderedDict
 
+with open("json/Cmd_data.json","r",encoding="utf_8_sig") as f:
+    datas = json.loads(f.read(),object_pairs_hook=OrderedDict)
 bot_login = codecs.open('json/logged.json', 'r', 'utf-8')
 run_bot = json.load(bot_login)
 
