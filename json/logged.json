@@ -1,0 +1,145 @@
+{
+    "ALFINONH": "u77b74f3168236452a981b5247f3ced94",
+    "Admin": {
+        "u77b74f3168236452a981b5247f3ced94": true,
+        "u81369bbfdaf2ab5c3d0806235585e6d5": true
+    },
+    "CHROMEOS": {
+        "LA": "CHROMEOS 2.1.5 Chrome_OS 2.1.5",
+        "UA": "Line/8.3.3"
+    },
+    "CLOVAFRIENDS": {
+        "LA": "CLOVAFRIENDS 5.5.1 WINDOW v1.5 9.3.2",
+        "UA": "Line/5.5.1"
+    },
+    "Creator": "u77b74f3168236452a981b5247f3ced94",
+    "DESKTOPMAC": {
+        "LA": "DESKTOPMAC 4.5.0 MAC 4.5.0",
+        "UA": "Line/7.4.1"
+    },
+    "DESKTOPWIN": {
+        "LA": "DESKTOPWIN 5.5.1 Window 5.5.1",
+        "UA": "Line/5.5.1"
+    },
+    "IOS": {
+        "LA": "IOSIPAD 7.9.0 iPhone OS 9.3.3",
+        "UA": "Line/7.9.0 iPad4,1 9.3.3"
+    },
+    "RELOAD": {
+        "User-Agent": "Line/8.3.3",
+        "X-LineAccess": "CHROMEOS 2.1.5 Chrome_OS 2.1.5"
+    },
+    "WIN10": {
+        "LA": "WIN10 5.5.1 WINDOW v1.5 10.3.2",
+        "UA": "Line/5.5.1"
+    },
+    "assist": {
+        "u252f5710109930fd7792e7fd475de64e": true,
+        "u8c234c9cc26dde851b86a4e03449e67b": true,
+        "u8de153b6a55f183ec620f4bcd7e6f317": true,
+        "ub9e6ae49ccf14991af196f30f99292a7": true,
+        "uc3e784e58b6880f96f45e4519df99931": true,
+        "ucae4d9917357e4ef04bb39d34e6ce08d": true,
+        "ueb9de2ed33577b472668fd7077072c2e": true,
+        "uf4e926dd8acb365b82097014f16b8f87": true
+    },
+    "fino": {
+        "AuthToken": "EyjaPJLtjYnpk0EljyY4.D7DpmwGJzfkPGBuKFZZTLa.0NwSMlixwCgeInNCu0Y0c8sbmtrsdJ23YEQEj28B0Cc=",
+        "Mid": "u77b74f3168236452a981b5247f3ced94",
+        "channelAccessToken": "s2tMxFOKBuB/dvpZ5X/PSf16ar+blWDVQ/AAESaLzukCcbVmIL8zGWu2vFAWfNcBk9zk5SR3bbMkwDZCmHiNrhBFL+IJQFh3zbpPF6jHOJH+lwc9MItntNu5eSLWfVPy8+37EmaNuGDkCW1OQYgacPG4OuO4kxFOqqsgh4cUjrSEA6VBhXF/fHu1nGP874gV",
+        "coverId": "c0000000000000000000000000000001",
+        "coverStatus": "",
+        "displayName": "Alfino NH",
+        "pictureStatus": "0hEaekCc0yGk5YEjfn7bxlGWRXFCMvPBwGIH1VKnoaFy0idw1PZyQGLC8QEX98I1obZnBRIXlGQytx",
+        "statusMessage": null,
+        "videoProfile": null
+    },
+    "fino1": {
+        "AuthToken": "EyDDnzhrS2N8BSW2nPb7.UEAUsCZXszgVgw8W/zksPW.CZtYbQaAWWqnwfCcvAqV84SHtvnLCrO28LS3gBIjkjo=",
+        "Mid": "ub9e6ae49ccf14991af196f30f99292a7",
+        "channelAccessToken": "",
+        "coverId": "",
+        "coverStatus": "",
+        "displayName": "",
+        "pictureStatus": "",
+        "statusMessage": "",
+        "videoProfile": ""
+    },
+    "fino2": {
+        "AuthToken": "EyxbC83I44kDDylwjDvd.YUtzKxnx5o8eUZNttMZGJq.U/EiND+ATtj6hBisp5K2+nVUyEqTNCXOxl9vmK+5X28=",
+        "Mid": "ucae4d9917357e4ef04bb39d34e6ce08d",
+        "channelAccessToken": "",
+        "coverId": "",
+        "coverStatus": "",
+        "displayName": "",
+        "pictureStatus": "",
+        "statusMessage": "",
+        "videoProfile": ""
+    },
+    "fino3": {
+        "AuthToken": "Eykl4LoB1X37smEVXZMc.t+2dmG587FopKZ+gV4hvZa.segswmfMqQz9tr6kN/kKz7SN9HR0OzeQhGUSt8l6yBc=",
+        "Mid": "u4ffd83320e7cedf38f933fc6bf81d5cc",
+        "channelAccessToken": "",
+        "coverId": "",
+        "coverStatus": "",
+        "displayName": "",
+        "pictureStatus": "",
+        "statusMessage": "",
+        "videoProfile": ""
+    },
+    "fino4": {
+        "AuthToken": "EygWGfmSYZ6N4tRQKmre.js9xebczmp13KUF9r13MtG.7aFJko7kqMtCKbYqJIhqa0iIfY/CKwMYfyfDAmey0qA=",
+        "Mid": "u252f5710109930fd7792e7fd475de64e",
+        "channelAccessToken": "",
+        "coverId": "",
+        "coverStatus": "",
+        "displayName": "",
+        "pictureStatus": "",
+        "statusMessage": "",
+        "videoProfile": ""
+    },
+    "fino5": {
+        "AuthToken": "EyRXYZlue7O1wwmwJuz7.JEftTQvFgd7gips81/BZfW.efgFhsLLm61IIo+YLU/DbkyGP9qaAEaWmMI1D8hKlt0=",
+        "Mid": "u8de153b6a55f183ec620f4bcd7e6f317",
+        "channelAccessToken": "",
+        "coverId": "",
+        "coverStatus": "",
+        "displayName": "",
+        "pictureStatus": "",
+        "statusMessage": "",
+        "videoProfile": ""
+    },
+    "kang": {
+        "AuthToken": "EyvR0NQwShuqf21qn1Z7.9oKM3yRlnLUccxau8wUpHW.J2mGK5lHb4/GLRg5WL7K5c6BFcGD/tcVYxdPyVsPw+8=",
+        "Mid": "uf4e926dd8acb365b82097014f16b8f87",
+        "channelAccessToken": "",
+        "coverId": "",
+        "coverStatus": "",
+        "displayName": "",
+        "pictureStatus": "",
+        "statusMessage": "",
+        "videoProfile": ""
+    },
+    "kicker1": {
+        "AuthToken": "EynWXyRj4IXpEXotwNUb.JcnmNmjT3OuBHQtGneNMEW.+npVBcZqeVpbREtfVdz0RhnjK3NcOHo57k3Bgft3/NU=",
+        "Mid": "u8c234c9cc26dde851b86a4e03449e67b",
+        "channelAccessToken": "TWOpMKvN/LbnEDJWUudzmVa0Ieqpd+0D4Z9d/m+cXa8KdxxoeqpXNyitSiNrCiU4uOw4swy10FK78xBd2DcTMKgVZ2y9X5OiXyrkQxK5vzho8lg9iqp+kYeSBnGmfA5BDp2rVp1TTAWIPIIO423JpvG4OuO4kxFOqqsgh4cUjrSEA6VBhXF/fHu1nGP874gV",
+        "coverId": "g0000000000000000000000000000023",
+        "coverStatus": "",
+        "displayName": "ISSC PROTECTOR",
+        "pictureStatus": "0hEpt-Y9wEGl9JVDf0V4NlCHURFDI-ehwXMWAGPWxVEG8zMV8JdjZUbDtVRTxtMQ4BdDtWbG9SEzs0",
+        "statusMessage": "Sementara kalian kuliah agar bisa kerja... \nKami kerja agar bisa kuliah. \nSementara kalian mencari ilmu untuk uang, \nKami mencari uang untuk ilmu.\n\n[Kang's]",
+        "videoProfile": null
+    },
+    "kicker2": {
+        "AuthToken": "EyoxxmbaRCug872JUwte.653I7tnxE0CMAp1WDWCSlG.3CoFBBlkdtnPr9d7Oi2CvHEWloGOT5O0GVTisyRvtAw=",
+        "Mid": "ueb9de2ed33577b472668fd7077072c2e",
+        "channelAccessToken": "osEs2Nl32CsXN+fdhqtReK8QGM545PzUw0MCH94oxV9h/MioGeIdhWm4Iaha23z3PY1YN2ZkdSrothywHO+WmnNQsTnKQwjM2YEZvsW7Vh66jKkNQ2N71y6AR1BPAyhcGQdYmDlL8KcJe3otmcOjEPG4OuO4kxFOqqsgh4cUjrSEA6VBhXF/fHu1nGP874gV",
+        "coverId": "g0000000000000000000000000000007",
+        "coverStatus": "",
+        "displayName": "ISSC PROTECTOR",
+        "pictureStatus": "0hibwt6eiQNk1KDRvmVNtJGnZIOCA9IzAFMmgueGoEaShvb3Qbd2t8LWlZOnVmaXgbdGN4LWYPby9l",
+        "statusMessage": "Sementara kalian kuliah agar bisa kerja... \nKami kerja agar bisa kuliah. \nSementara kalian mencari ilmu untuk uang, \nKami mencari uang untuk ilmu.\n\n[Kang's]",
+        "videoProfile": null
+    }
+}

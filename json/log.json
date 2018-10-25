@@ -1,0 +1,154 @@
+{
+    "ALFINONH": "u4d2f1c2fbee16358f12c749f406cfbf0",
+    "Admin": {
+        "u4d2f1c2fbee16358f12c749f406cfbf0": true
+    },
+    "Commands": {
+        "HelloWorld": {
+            "alt": [
+                "Bonjour le monde",
+                "ハローワールド",
+                "こんにちは世界",
+                "Hallo Welt",
+                "Hola Mundo",
+                "Olá Mundo",
+                "Hallo Finbot",
+                "世界你好"
+            ],
+            "body": "FINBOT!",
+            "prefix": false
+        },
+        "exec": {
+            "body": "m_exec_thread()",
+            "group": true,
+            "memo": "!exec (PythonScript) -> PythonScript",
+            "pm": false,
+            "user": true
+        },
+        "hello": {
+            "body": "Hello Hello!",
+            "group": true,
+            "memo": "[On 1to1 or Group] hello or !hello or hello_FINBOT... -> Hello Hello!",
+            "pm": false,
+            "to": "#Force send to user if there is a 'to' element.",
+            "user": true
+        },
+        "test": {
+            "body": "This is a test.",
+            "group": false,
+            "memo": "[On 1to1] !test -> This is a test.",
+            "pm": true,
+            "user": true
+        },
+        "world": {
+            "body": "World World!",
+            "group": true,
+            "memo": "[On 1to1 or Group] !world -> World World!",
+            "pm": true,
+            "user": true
+        },
+        "world2": {
+            "body": "World World!",
+            "memo": "[On 1to1 or Group] hello or !hello or hello_world... -> Hello Hello!"
+        },
+        "からの着信がありました。通話の着信許可がOFFになっているため、応答できません。": {
+            "body": "Sorry I can't receive a call > <",
+            "group": false,
+            "pm": false,
+            "prefix": "#Ignore Prefix if there is a 'prefix' element.",
+            "user": true
+        }
+    },
+    "Creator": "u4d2f1c2fbee16358f12c749f406cfbf0",
+    "Permissions": {
+        "test": {
+            "NORMAL": 2
+        }
+    },
+    "Prefix": "!",
+    "Types": {
+        "1": "Got Image",
+        "14": "Got File",
+        "16": "Got Album or Note",
+        "4": "Got Vote"
+    },
+    "Users": {
+        "XXXXXXXXXXXXXXXX": {
+            "Count": {
+                "exec": 1,
+                "test": 1
+            },
+            "Permission": "NORMAL"
+        }
+    },
+    "WIN10": {
+        "LA": "WIN10 5.5.1 WINDOW v1.5 10.3.2",
+        "UA": "Line/5.5.1"
+    },
+    "assist": {},
+    "bot": {
+        "Mid": "u4d2f1c2fbee16358f12c749f406cfbf0",
+        "auth": "ExubiGWL6ioIMyTrovu0.ts8Cl77Hy1JXlhsFqgZ78a.PlfWNYHh+dMk9E6wHeCCPJr/yTN4Wl/prI14hH4y2xc=",
+        "channelAccessToken": "",
+        "coverId": "",
+        "coverStatus": "",
+        "displayName": "",
+        "pictureStatus": "",
+        "statusMessage": null,
+        "videoProfile": null
+    },
+    "chrome": {
+        "LA": "CHROMEOS 2.1.5 Chrome_OS 2.1.5",
+        "UA": "Line/8.3.3"
+    },
+    "client": "",
+    "client10": "",
+    "client11": "",
+    "client12": "",
+    "client13": "",
+    "client14": "",
+    "client15": "",
+    "client16": "",
+    "client17": "",
+    "client18": "",
+    "client19": "",
+    "client2": "",
+    "client20": "",
+    "client21": "",
+    "client22": "",
+    "client23": "",
+    "client24": "",
+    "client25": "",
+    "client26": "",
+    "client27": "",
+    "client28": "",
+    "client29": "",
+    "client3": "",
+    "client30": "",
+    "client4": "",
+    "client5": "",
+    "client6": "",
+    "client7": "",
+    "client8": "",
+    "client9": "",
+    "clova": {
+        "LA": "CLOVAFRIENDS 5.5.1 WINDOW v1.5 9.3.2",
+        "UA": "Line/5.5.1"
+    },
+    "desktop": {
+        "LA": "DESKTOPWIN 5.5.1 Window 5.5.1",
+        "UA": "Line/5.5.1"
+    },
+    "ios": {
+        "LA": "IOSIPAD 7.9.0 iPhone OS 9.3.3",
+        "UA": "Line/7.9.0 iPad4,1 9.3.3"
+    },
+    "mac": {
+        "LA": "DESKTOPMAC 4.5.0 MAC 4.5.0",
+        "UA": "Line/7.4.1"
+    },
+    "reload": {
+        "LA": "IOSIPAD 7.9.0 iPhone OS 9.3.3",
+        "UA": "Line/7.9.0 iPad4,1 9.3.3"
+    }
+}
