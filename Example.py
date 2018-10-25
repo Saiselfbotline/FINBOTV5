@@ -1,5 +1,6 @@
 #Editor by ALFINO~NH 「 Finbot v5.0 」
-
+from linepy import *
+from akad.ttypes import *
 from replyer import *
 from collections import OrderedDict
 import json,sys
