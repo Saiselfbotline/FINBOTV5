@@ -1,4 +1,6 @@
-from lib.linepy import *
+#Editor by ALFINO~NH 「 Finbot v5.0 」
+
+from replyer import *
 from collections import OrderedDict
 import json,sys
 
@@ -7,9 +9,9 @@ with open("authToken.txt","r") as f:
 with open("Cmd_data.json","r",encoding="utf_8_sig") as f:
     datas = json.loads(f.read(),object_pairs_hook=OrderedDict)
 
-cl = LineClient(authToken=token)
-chcl = LineChannel(cl)
-tracer = LinePoll(cl)
+cl = LINE(authToken=token)
+chcl = Channel(cl)
+tracer = OEPoll(cl)
 replyer = simplify.Simplify(cl,datas=datas)
 
 def m_exec_thread(msg):
