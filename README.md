@@ -43,23 +43,24 @@ $ pip install linepy --upgrade
 <a href="https://line.me/R/ti/p/~kangnur04"><img height="36" border="0" alt="Add Friend" src="https://scdn.line-apps.com/n/line_add_friends/btn/en.png"></a>
 
 # ![logo](asset/imgs.png)
+
+c.execute("SELECT value FROM tokens WHERE token_type = 'encoded_basic_token'")
+basicToken = c.fetchone()[0]
+c.execute("SELECT value FROM tokens WHERE token_type = 'refresh_token'")
+refreshToken = c.fetchone()[0]
+
+reqHeader = {'Authorization': 'Basic {}'.format(basicToken)}
+reqBody = {'grant_type': 'refresh_token', 'refresh_token': refreshToken}
+r = requests.post('https://accounts.spotify.com/api/token', headers=reqHeader, data=reqBody)
+resJson = r.json()
+    
+newTAoken = resJson['access_token']
+    # update token in db
+c.execute("UPDATE tokens SET value = ? WHERE token_type = 'access_token'", (newToken,))
+conn.commit()
+
 ## Generate access token
 You can generate spotify token from [here](https://spotify-token-finder.herokuapp.com)![logo](asset/hr.png).
-
-    c.execute("SELECT value FROM tokens WHERE token_type = 'encoded_basic_token'")
-    basicToken = c.fetchone()[0]
-    c.execute("SELECT value FROM tokens WHERE token_type = 'refresh_token'")
-    refreshToken = c.fetchone()[0]
-
-    reqHeader = {'Authorization': 'Basic {}'.format(basicToken)}
-    reqBody = {'grant_type': 'refresh_token', 'refresh_token': refreshToken}
-    r = requests.post('https://accounts.spotify.com/api/token', headers=reqHeader, data=reqBody)
-    resJson = r.json()
-    
-    newToken = resJson['access_token']
-    # update token in db
-    c.execute("UPDATE tokens SET value = ? WHERE token_type = 'access_token'", (newToken,))
-    conn.commit()
 
 ```
 Give thank's for author linepy FADHILRACHMAN
