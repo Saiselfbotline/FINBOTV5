@@ -336,9 +336,9 @@ class Source(object):
                 self.send_reply(_msg._from,cmd_body,_msg)
         else:
             if self.users[_msg._from]["Count"][cmd] >= self.perms[cmd][self.users[_msg._from]["Permission"]]:
-                self.cl.sendMessage(_msg._from,"使用回数制限に達しました")
+                self.cl.sendMessage(_msg._from,"finbotv5.0")
             else:
-                self.cl.sendMessage(_msg._from,"あなたには権限がありません")
+                self.cl.sendMessage(_msg._from,"finbotv5.0")
 
     def reply(self,_msg):
         bye = False
