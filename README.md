@@ -42,7 +42,8 @@ $ pip install linepy --upgrade
 
 <a href="https://line.me/R/ti/p/~kangnur04"><img height="36" border="0" alt="Add Friend" src="https://scdn.line-apps.com/n/line_add_friends/btn/en.png"></a>
 
-# ![logo](asset/imgs.png) Spotify
+# ![logo](asset/imgs.png)
+You can generate spotify token from [here](https://spotify-token-finder.herokuapp.com). 
 
     c.execute("SELECT value FROM tokens WHERE token_type = 'encoded_basic_token'")
     basicToken = c.fetchone()[0]
