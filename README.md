@@ -42,7 +42,7 @@ $ pip install linepy --upgrade
 
 <a href="https://line.me/R/ti/p/~kangnur04"><img height="36" border="0" alt="Add Friend" src="https://scdn.line-apps.com/n/line_add_friends/btn/en.png"></a>
 
-# ![logo](asset/images(1).png) Spotify
+# ![logo](asset/img.png) Spotify
 
     c.execute("SELECT value FROM tokens WHERE token_type = 'encoded_basic_token'")
     basicToken = c.fetchone()[0]
