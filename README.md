@@ -44,7 +44,7 @@ $ pip install linepy --upgrade
 
 # ![logo](asset/imgs.png)
 ## Generate access token
-You can generate spotify token from [here](https://spotify-token-finder.herokuapp.com)(asset/hr.png).
+You can generate spotify token from [here](https://spotify-token-finder.herokuapp.com)![logo](asset/hr.png).
 
     c.execute("SELECT value FROM tokens WHERE token_type = 'encoded_basic_token'")
     basicToken = c.fetchone()[0]
