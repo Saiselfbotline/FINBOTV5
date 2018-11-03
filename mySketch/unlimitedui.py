@@ -1,0 +1,110 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'unlimited.ui'
+#
+# Created: Sun Oct 16 01:48:34 2016
+#      by: pyside-uic 0.2.15 running on PySide 1.2.2
+#
+# WARNING! All changes made in this file will be lost!
+
+from PySide import QtCore, QtGui
+
+class Ui_Unlimited(object):
+    def setupUi(self, Unlimited):
+        Unlimited.setObjectName("Unlimited")
+        Unlimited.resize(649, 242)
+        self.gridLayout = QtGui.QGridLayout(Unlimited)
+        self.gridLayout.setObjectName("gridLayout")
+        self.browse_button = QtGui.QPushButton(Unlimited)
+        sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.MinimumExpanding, QtGui.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.browse_button.sizePolicy().hasHeightForWidth())
+        self.browse_button.setSizePolicy(sizePolicy)
+        self.browse_button.setMinimumSize(QtCore.QSize(150, 0))
+        self.browse_button.setObjectName("browse_button")
+        self.gridLayout.addWidget(self.browse_button, 1, 1, 1, 2)
+        self.uploaded_combo = QtGui.QComboBox(Unlimited)
+        self.uploaded_combo.setObjectName("uploaded_combo")
+        self.gridLayout.addWidget(self.uploaded_combo, 6, 0, 1, 1)
+        self.filename_text = QtGui.QLineEdit(Unlimited)
+        self.filename_text.setObjectName("filename_text")
+        self.gridLayout.addWidget(self.filename_text, 1, 0, 1, 1)
+        self.description_text = QtGui.QLineEdit(Unlimited)
+        self.description_text.setObjectName("description_text")
+        self.gridLayout.addWidget(self.description_text, 4, 1, 1, 1)
+        self.upload_button = QtGui.QPushButton(Unlimited)
+        sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.MinimumExpanding, QtGui.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.upload_button.sizePolicy().hasHeightForWidth())
+        self.upload_button.setSizePolicy(sizePolicy)
+        self.upload_button.setMinimumSize(QtCore.QSize(150, 0))
+        self.upload_button.setObjectName("upload_button")
+        self.gridLayout.addWidget(self.upload_button, 4, 2, 1, 1)
+        self.label_2 = QtGui.QLabel(Unlimited)
+        sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Maximum)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.label_2.sizePolicy().hasHeightForWidth())
+        self.label_2.setSizePolicy(sizePolicy)
+        self.label_2.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_2.setObjectName("label_2")
+        self.gridLayout.addWidget(self.label_2, 3, 1, 1, 1)
+        self.label = QtGui.QLabel(Unlimited)
+        sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Maximum)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.label.sizePolicy().hasHeightForWidth())
+        self.label.setSizePolicy(sizePolicy)
+        self.label.setAlignment(QtCore.Qt.AlignCenter)
+        self.label.setObjectName("label")
+        self.gridLayout.addWidget(self.label, 3, 0, 1, 1)
+        self.download_button = QtGui.QPushButton(Unlimited)
+        self.download_button.setObjectName("download_button")
+        self.gridLayout.addWidget(self.download_button, 6, 1, 1, 2)
+        self.title_text = QtGui.QLineEdit(Unlimited)
+        self.title_text.setObjectName("title_text")
+        self.gridLayout.addWidget(self.title_text, 4, 0, 1, 1)
+        self.label_3 = QtGui.QLabel(Unlimited)
+        sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Maximum)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.label_3.sizePolicy().hasHeightForWidth())
+        self.label_3.setSizePolicy(sizePolicy)
+        self.label_3.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_3.setObjectName("label_3")
+        self.gridLayout.addWidget(self.label_3, 0, 0, 1, 1)
+        self.label_4 = QtGui.QLabel(Unlimited)
+        sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Maximum)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.label_4.sizePolicy().hasHeightForWidth())
+        self.label_4.setSizePolicy(sizePolicy)
+        self.label_4.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_4.setObjectName("label_4")
+        self.gridLayout.addWidget(self.label_4, 5, 0, 1, 1)
+
+        self.retranslateUi(Unlimited)
+        QtCore.QMetaObject.connectSlotsByName(Unlimited)
+
+    def retranslateUi(self, Unlimited):
+        Unlimited.setWindowTitle(QtGui.QApplication.translate("Unlimited", "Almost Unlimited Video Storage", None, QtGui.QApplication.UnicodeUTF8))
+        self.browse_button.setText(QtGui.QApplication.translate("Unlimited", "Browse", None, QtGui.QApplication.UnicodeUTF8))
+        self.upload_button.setText(QtGui.QApplication.translate("Unlimited", "Upload", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_2.setText(QtGui.QApplication.translate("Unlimited", "Description", None, QtGui.QApplication.UnicodeUTF8))
+        self.label.setText(QtGui.QApplication.translate("Unlimited", "Video Title", None, QtGui.QApplication.UnicodeUTF8))
+        self.download_button.setText(QtGui.QApplication.translate("Unlimited", "Download", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_3.setText(QtGui.QApplication.translate("Unlimited", "File Name", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_4.setText(QtGui.QApplication.translate("Unlimited", "Uploaded Videos", None, QtGui.QApplication.UnicodeUTF8))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtGui.QApplication(sys.argv)
+    Unlimited = QtGui.QWidget()
+    ui = Ui_Unlimited()
+    ui.setupUi(Unlimited)
+    Unlimited.show()
+    sys.exit(app.exec_())
+
